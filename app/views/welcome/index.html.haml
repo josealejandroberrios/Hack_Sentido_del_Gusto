@@ -1,15 +1,122 @@
-.container
-  .row.justify-content-md-center
-    .col.col-lg-2
-      1 of 3
-    .col-md-auto
-      Variable width content
-    .col.col-lg-2
-      3 of 3
-  .row
-    .col
-      1 of 3
-    .col-md-auto
-      Variable width content
-    .col.col-lg-2
-      3 of 3
+-#-#-#-#-#-#-#-#-#-#-#
+-#-#sidebar/menu-#-#
+-#-#-#-#-#-#-#-#-#-#-#
+.nav-fill
+  .container
+    .row.mt-2.text-info
+      .col-3.text-center
+        = link_to 'Tastemarkers'
+      .col-2.text-center
+        = link_to 'Blog'
+      .col-2.text-center
+        = link_to 'The A-List'
+      .col-2.text-center
+        = link_to 'Contribute'
+      .col-3.text-center
+        = link_to 'About'
+    .row.mt-3.justify-content-center
+      .logo-circular.rounded-circle
+
+-#-#-#-#-#-#-#-#-#-#-#
+-#-#imagen/central-#-#
+-#-#-#-#-#-#-#-#-#-#-#
+.figure-img
+  .container-fluid
+    .row.mt-3
+      .col
+        = image_tag 'especias.jpg', alt: '', height: '50%', width: '100%', class: 'img-fluid'
+        .card.bg-white.fsz-1
+          &nbsp;&nbsp; Read, Learn, Share
+        .card.text-white.bg-dark.fsz-2
+          &nbsp;&nbsp; Get daily how-tos, stories & updates with the latest news.
+        .card-text.bg-white.text-right.fsz-3
+          * photo by Clare Barboza &nbsp
+
+-#-#-#-#-#-#-#-#-#-#-#
+-#-#-#formulario-#-#-#
+-#-#-#-#-#-#-#-#-#-#-#
+.form-inline
+  .container
+    .row.justify-content-start.pl-5
+      .col-2.text-center
+        %span
+          %i.fas.fa-envelope.fa-4x
+      .col-9       
+        .card-text
+          Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.
+    .row.mt-3.pl-5
+      .col-7
+        .form-group
+          %input.form-control{:placeholder => "Email", :type => "email"}/ 
+      .col-4         
+        %button.btn{:type => "submit"} Subscribe
+
+-#-#-#-#-#-#-#-#-#-#-#
+-#-#-#-#Galeria-#-#-#-#
+-#-#-#-#-#-#-#-#-#-#-#
+.gallery
+  .container
+    -#-#-# Primer Articulo
+    .row.mt-5.justify-content-center
+      .col-11.text-center
+        .card-img.col-11
+          = image_tag 'articulo-1.jpg', alt: '', height: '50%', width: '100%', class: 'img-fluid'
+      .card-body.col-10
+        %h5.card-title.text-info 2012's Best Summer Cookbooks
+        %p.card-text With the best of the season comming from "orchads, farms and gardens" NPR has put together an impressive collection of 10 summer cookbooks.
+        %p.card-text.gray-color.d-inline May 23, 2012 /
+        %a.text-info.d-inline{:href => "#"} Read >>
+    -#-#-# Segundo Articulo    
+    .row.mt-5.justify-content-center
+      .col-11.text-center
+        .card-img.col-11
+          = image_tag 'articulo-2.jpg', alt: '', height: '50%', width: '100%', class: 'img-fluid'
+      .card-body.col-10
+        %h5.card-title.text-info How to Make Vegetable Chips
+        %p.card-text About a month ago. I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Broklyn. and before a very thoughtfully prepared vegan...
+        %p.card-text.gray-color.d-inline May 17, 2012 /
+        %a.text-info.d-inline{:href => "#"} Read >>
+    -#-#-# Tercer Articulo    
+    .row.mt-5.justify-content-center
+      .col-11.text-center
+        .card-img.col-11
+          = image_tag 'articulo-3.jpg', alt: '', height: '50%', width: '100%', class: 'img-fluid'
+      .card-body.col-10
+        %h5.card-title.text-info Join us on Pinterest!
+        %p.card-text If I could curate a cookbook for you, this would be it.
+        %p.card-text.gray-color.d-inline May 16, 2012 /
+        %a.text-info.d-inline{:href => "#"} Read >>
+    -#-#-# Cuarto Articulo    
+    .row.mt-5.justify-content-center
+      .col-11.text-center
+        .card-img.col-11
+          = image_tag 'articulo-4.jpeg', alt: '', height: '50%', width: '100%', class: 'img-fluid'
+      .card-body.col-10
+        %h5.card-title.text-info Recipes froma Sunday Supper
+        %p.card-text I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderfull Sunday supper - eat the slowly, a little bit at...
+        %p.card-text.gray-color.d-inline May 15, 2012 /
+        %a.text-info.d-inline{:href => "#"} Read >>
+  
+-#-#-#-#-#-#-#-#-#-#-#
+-#-#-#-#footer-#-#-#-#
+-#-#-#-#-#-#-#-#-#-#-#           
+.footer
+  .container
+    .row.text-info
+      .col-2
+        Privacy Policity
+      .col-2
+        Terms of Use
+      .col-2
+        Contact
+    .row.justify-content-end
+      .col
+        %a.gray-color{:href => "#"} 
+          %i.fab.fab.fa-twitter.fa-3x
+      .col
+        %a.gray-color{:href => "#"} 
+          %i.fab.fa-facebook-f.fa-3x
+      .col
+        %a.gray-color{:href => "#"} 
+          %i.fab.fab.fa-slack.fa-3x
+          
