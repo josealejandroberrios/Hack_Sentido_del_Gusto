@@ -16,7 +16,6 @@ a{
   font-size: 2em;
   position: relative;
   top: -60px;
-
 }
 
 .fsz-2{
@@ -25,6 +24,7 @@ a{
   top: -60px;
 
 }
+
 .fsz-3{
   font-size: 12px;
   position: relative;
@@ -34,6 +34,7 @@ a{
 i{
   color: #111;
 }
+
 .card{
   border-radius: 0px;
 }
@@ -55,8 +56,11 @@ i{
   
 }
 .dotted-t{
-  border-top: 1px dashed gainsboro;
-  
+  border-top: 1.2px dashed gainsboro;
+}
+
+.f-a-fs{
+  font-size: 65px;
 }
 
 .fs-footer{
@@ -64,8 +68,53 @@ i{
 }
 
 .fs-footer-icon{
-  font-size: 1.7em;
+  font-size: 2.2em;
   padding-right: 5px;
+}
+.no-line-height{
+  line-height: normal;
+}
+
+.border-bottom{
+  border-bottom: 2px solid gainsboro !important;
+}
+
+.border-top{
+  border-top: 2px solid gainsboro !important;
+}
+
+@include media-breakpoint-up(sm) {
+  .border-bottom{
+    border-bottom: inherit !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .no-pl-r-md{
+    padding-right: 0px !important;
+  }
+  .m-md-l{
+    margin-right: 0px !important;
+  }
+  .f-a-fs{
+    font-size: 45px;
+  }
+  .pl-5{
+    padding-left: 0 !important;
+  }
+  .fs-md-form{
+    font-size: 13px;
+  }
+  .ml-icon{
+    margin-left: 30%;
+  }
+  .no-pl-x{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .fs-gallery{
+    font-size: 14px;
+  }
 }
 
 
