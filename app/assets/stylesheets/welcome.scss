@@ -1,8 +1,8 @@
 .logo-circular{
   width: 120px;
   height: 120px;
-  background: #111
-  
+  background: #111;
+  border: 3px solid #17a2b8;
 }
 
 a{
@@ -26,9 +26,9 @@ a{
 
 }
 .fsz-3{
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
-  top: -30px;
+  top: -45px;
 }
 
 i{
@@ -43,6 +43,29 @@ i{
 }
 
 .gray-color{
-  color: gray;
+  color: gainsboro;
 }
+
+.ajust-height{
+  height: 200px;
+}
+
+.dotted-b{
+  border-bottom: 1px dashed gainsboro;
+  
+}
+.dotted-t{
+  border-top: 1px dashed gainsboro;
+  
+}
+
+.fs-footer{
+  font-size: 12px;
+}
+
+.fs-footer-icon{
+  font-size: 1.7em;
+  padding-right: 5px;
+}
+
 
