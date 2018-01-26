@@ -116,16 +116,84 @@ i{
     font-size: 14px;
   }
   .image-height{
-    height:70%;
+    height: 60%;
   }
+  .bg-blue-light{
+    background: #e9feff;
+  }
+  .fsz-1{
+    top: -150px;
+    opacity: 1;
+    width: 350px;
+  }
+  .fsz-2{
+    top: -150px;
+    width: 450px;
+    height: 49px;
+    font-size: 1.1em;
+    padding-top: 10px;
+  }
+  .fsz-3{
+    font-size: 9px;
+    top: -140px;
+    padding-right: 10px;
+    width: 100px;
+    opacity: 0.9;
+    right: -83%;
+    color: black;
+    height: 20px;
+    padding-right: 5px;
+    padding-top: 2px;
+  }
+  .height{
+    height: 40px;
+    text-align: center;
+  }
+  .hover:hover{
+    background: blue;
+  }
+  .move-top{
+    top: -115px;
+  }
+  #FormSignUp, #Gallery, #Footer {
+    position: relative;
+    top: -150px;
+  }
+
+
 }
 
 @include media-breakpoint-up(lg) {
   .col-width{
     width: 136.39px;
   }
- 
-  
+  .font-size-sidebartwitter{
+    font-size: 12px;
+  }
+  #FormSignUp, #Gallery, #Footer {
+    position: relative;
+    top: 0;
+  }
+  // .side-bar-position{
+  //   position: relative;
+  //   top: -150px;
+  // }
+  .height{
+    height: 100px;
+    text-align: left;
+  }
+  h5{
+    font-size: 20px;
+  }
+  h6{
+    font-size: 12px;
+  }
+  .fsz-3{
+    right: -85%;
+  }
+  #BigView-SideBar{
+    height: 650px;
+  }
 }
 
 

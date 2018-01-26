@@ -1,6 +1,13 @@
 .container
-  .row 
-    = render "partials/navbar"
-    = render "partials/form"
-    = render "partials/gallery"
+  .row
+    #BigView-SideBar.col-lg-2.px-lg-0
+      .row.flex-row-reverse
+        = render "partials/navbar"
+    #BigView-SideBar.col-lg-10
+      .row.d-flex
+        = render "partials/carousel"
+    #BigView.col-
+      .row
+        = render "partials/sidebartwitter"
+        = render "partials/form"
     = render "partials/footer"

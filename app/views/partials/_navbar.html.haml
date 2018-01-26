@@ -1,37 +1,23 @@
-#BigView-SideBar.col-lg.px-lg-0
-  .row.flex-row-reverse
-    #NavBar.col-12.col-sm-9.col-md-9.col-lg.order-lg-2.align-self-center
-      .row.mt-2.text-info.justify-content-around.pb-3.ml-0.mr-0.border-bottom.align-items-center
-        .col-.pb-lg-3.col-width
-          %i.fas.fa-utensils.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
-          %a.d-lg-inline.mb-lg-4(href="#") Tastemarkers
-        .col-.pb-lg-3.col-width
-          %i.fas.fa-book.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
-          %a.d-lg-inline(href="#") Blog
-        .col-.pb-lg-3.col-width
-          %i.far.fa-clipboard.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
-          %a.d-lg-inline(href="#") The A-List
-        .col-.pb-lg-3.col-width
-          %i.fas.fa-share-square.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-2
-          %a.d-lg-inline(href="#") Contribute
-        .col-.pb-lg-3.col-width
-          %i.fas.fa-users.fa-2x.d-none.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-2
-          %a.d-lg-inline(href="#") About
+#NavBar.col-12.col-sm-9.col-md-9.col-lg.order-lg-2.align-self-center
+  .row.mt-2.text-info.justify-content-around.pb-3.ml-0.mr-0.border-bottom.align-items-center
+    .col-.pb-lg-3.col-width
+      %i.fas.fa-utensils.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
+      %a.d-lg-inline.mb-lg-4(href="#") Tastemarkers
+    .col-.pb-lg-3.col-width
+      %i.fas.fa-book.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
+      %a.d-lg-inline(href="#") Blog
+    .col-.pb-lg-3.col-width
+      %i.far.fa-clipboard.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-3
+      %a.d-lg-inline(href="#") The A-List
+    .col-.pb-lg-3.col-width
+      %i.fas.fa-share-square.fa-2x.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-2
+      %a.d-lg-inline(href="#") Contribute
+    .col-.pb-lg-3.col-width
+      %i.fas.fa-users.fa-2x.d-none.d-none.d-md-block.text-dark.mb-2.ml-icon.d-lg-inline.mb-lg-0.ml-lg-0.mr-lg-2
+      %a.d-lg-inline(href="#") About
 
-    #Logotype.col-12.col-sm-3.col-md-3.col-lg.order-lg-1.pb-lg-4
-      .row.mt-3.justify-content-center
-        .col.text-center
-          = image_tag 'logo_hack.jpg', alt: '', height: '', width: '', class: 'rounded-circle logo-circular '
+#Logotype.col-12.col-sm-3.col-md-3.col-lg.order-lg-1.pb-lg-4
+  .row.mt-3.justify-content-center
+    .col.text-center
+      = image_tag 'logo_hack.jpg', alt: '', height: '', width: '', class: 'rounded-circle logo-circular '
 
-#BigView-SideBar.col-lg-10
-  .row.d-flex
-    #ImagesCarousel.col-12.col-sm-12.col-md-12.col-lg-12
-      .row.mt-3
-        .col-12.col-sm-12.col-md-12.col.lg-12
-          = image_tag 'especias.jpg', alt: '', height: '', width: '100%', class: 'img-fluid image-height'
-          .card.bg-white.fsz-1
-            &nbsp;&nbsp; Read, Learn, Share
-          .card.text-white.bg-dark.fsz-2
-            &nbsp;&nbsp; Get daily how-tos, stories & updates with the latest news.
-          .card-text.bg-white.text-right.fsz-3.gray-color
-            * photo by Clare Barboza &nbsp
