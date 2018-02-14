@@ -1,24 +1,26 @@
-# README
+Sentido del gusto
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Introducción:
 
-* Ruby version
+    Se trata de una página que se usa para compartir tus conocimientos culinarios (recetas).
+    
+Requerimiento:
 
-* System dependencies
+    Se requiere la construcción de un landing page responsive (página que se ajusta al tamaño de la pantalla desde donde se visualiza).
+    La página cuenta con 4 elementos básicos: sidebar menú, imagen central, galeria y footer.
 
-* Configuration
+Requerimientos específicos:
 
-* Database creation
+    La página debe ajustarse a las siguientes resoluciones:
+        ● Mayor a 991 px
+        ● Menor a 991 px
+        ● Menor a 768 px
+        ● Menor a 480 px
 
-* Database initialization
+Consideraciones:
 
-* How to run the test suite
+    ● Deben usar media queries.
+    ● Las imagenes las pueden sacar de internet.
+    ● En cuanto a la tipografía, pueden usar roboto o la que encuentren que separezca más a la de la imagenes.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
